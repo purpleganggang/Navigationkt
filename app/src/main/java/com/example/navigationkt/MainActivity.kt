@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
             R.id.how -> Toast.makeText(applicationContext,"경매 방법",Toast.LENGTH_SHORT).show()
             R.id.company -> Toast.makeText(applicationContext,"회사 소개",Toast.LENGTH_SHORT).show()
         }
-        layout_drawer.closeDrawers()
+        layout_drawer.closeDrawers()//fddfg
 
         return false
     }
